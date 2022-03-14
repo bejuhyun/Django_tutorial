@@ -1,0 +1,19 @@
+1. python 설치
+2. db 설정 - PostgreSQL, MariaDB, MySQL, Oracle 과 같은 규모의 데이터베이스 엔진을 사용하여 작업할 때만 필요
+3. venv 설치 - 폴더 내 python -m venv 가상환경이름 // visualevn와 venv 차이 있음. activate.bat // deactivate.bat
+4. Django 설치 - python -m pip install Django
+5. Django 프로젝트 만들기 - $django-admin startproject 생성할디렉토리
+6. startproject에서 무엇이 생성되는지?
+==> mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+ 
+7. 개발 서버
+==> $ python manage.py runserver
+
+8. 설문조사 앱 만들기
